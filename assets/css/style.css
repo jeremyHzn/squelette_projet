@@ -1,0 +1,43 @@
+/*
+ * import de la font générale du site
+ */
+
+@font-face {
+    font-family: "";
+    src: url();
+}
+
+/*
+ * style générale des balises du site
+ */
+
+
+
+/*
+ * Header
+ */
+
+
+
+/*
+ * Main
+ */
+
+
+
+/*
+ * Footer
+ */
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+footer p {
+    color: var(--text-color);
+    text-align: center;
+}

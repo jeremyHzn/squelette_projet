@@ -1,0 +1,6 @@
+body{
+    --primary-color: hsl(145, 100%, 20%);
+    --secondary-color: hsl(114, 80%, 64%);
+    --text-color: rgb(30, 30%, 30%);
+    --background-color: rgb(183, 109, 29);
+}
