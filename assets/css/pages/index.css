@@ -3,7 +3,7 @@
 */
 @import "./reset.css";
 @import "./style.css";
-
+@import "../themes/rouge.css";
 /*
  * Style spécifique à la page
 */

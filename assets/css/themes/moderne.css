@@ -1,18 +1,17 @@
 :root {
-  --primary-color: #6ab04c; /* Vert */
-  --secondary-color: #b2dbbf; /* Vert clair */
-  --tertiary-color: #f3ffbd; /* Jaune clair */
-  --quaternary-color: #1e3799; /* Bleu foncé */
-  --quinary-color: #f7fff7; /* Blanc */
+    --primary-color: #222831; /* Foncé */
+    --secondary-color: #393e46; /* Moins foncé */
+    --tertiary-color: #00adb5; /* Vert clair */
+    --quaternary-color: #eeeeee; /* Gris clair */
+    --quinary-color: #f7fff7; /* Blanc */
 }
-
 /* Police */
 body {
-  color: var(--primary-color); /* Applique la couleur des textes par défaut */
-  background-color: var(--quinary-color); /* Applique la couleur des arrière-plans par défaut */
+    color: var(--primary-color);/* Applique la couleur des textes par défaut */
+    background-color: var(--quinary-color);/* Applique la couleur des arrière-plans par défaut */
 }
 
-div {
+div{
     background-color: var(--quinary-color);
     border: var(--primary-color);
 }

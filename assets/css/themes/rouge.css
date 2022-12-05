@@ -1,0 +1,45 @@
+/* Couleurs */
+:root {
+  --primary-color: #b03a2e;/* Rouge foncé */
+  --secondary-color: #f7fff7;/* Blanc */
+  --tertiary-color: #4b0082;/* Violet */
+  --quaternary-color: #f3f3f3;/* Gris clair */
+  --quinary-color: #ffd700;/* Or */
+}
+
+/* Police */
+body {
+  color: var(--primary-color);/* Applique la couleur des textes par défaut */
+  background-color: var(--quinary-color);/* Applique la couleur des arrière-plans par défaut */
+}
+
+div{
+  background-color: var(--quinary-color);
+  border: var(--primary-color);
+}
+/* Boutons */
+button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* Liens */
+a {
+  color: var(--tertiary-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* Titres */
+h1,
+h2,
+h3 {
+  color: var(--quaternary-color);
+}

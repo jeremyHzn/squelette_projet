@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #1e8bc3;  /* Bleu clair */
+    --secondary-color: #c0392b; /* Rouge foncé */
+    --tertiary-color: #f1c40f;  /* Jaune clair */
+    --text-color: #333333;     /* Gris foncé */
+    --background-color: #ffffff; /* Blanc */
+}
+
+/* Titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+/* Paragraphes */
+p {
+  color: var(--text-color);
+}
+
+/* Liens */
+a {
+  color: var(--secondary-color);
+  
+}
+a:hover,
+a:active {
+  color: var(--primary-color);
+}
+
+/* Boutons */
+button,
+input[type="submit"] {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  
+}
+button:hover,
+input[type="submit"]:hover {
+  background-color: var(--primary-color);
+}
